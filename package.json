@@ -1,0 +1,29 @@
+{
+  "name": "todolist_project",
+  "version": "1.0.0",
+  "description": "todolist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    
+    "start": "node app/index.js",
+    "dev": "node app/index.js",
+    "command_test": "node app/index.js test",
+    "command_update": "node app/index.js update",
+    "command_read-all": "node app/index.js read-all",
+    "command_read-detail": "node app/index.js read-detail",
+    "command_delete": "node app/index.js delete",
+    "command_create": "node app/index.js create"
+  },
+  "keywords": [
+    "todolist"
+  ],
+  "author": "E!=mc*c",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "yargs": "^17.6.2"
+  }
+}

@@ -1,0 +1,3 @@
+Tạo file text bằng cách khai báo biến 1 phương thức rồi gọi phương thức đó
+const fs = require("fs");
+fs.writeFileSync ("abc.txt","Hi!");

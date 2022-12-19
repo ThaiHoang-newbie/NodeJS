@@ -1,0 +1,9 @@
+// Ví dụ tạo 1 lệnh tên create
+yargs.command({
+    command: "create", //1 khóa quan trọng
+    handler: () => { //1 khóa quan trọng như khóa trên
+        console.log("Hi!")
+    },
+})
+// Lưu lệnh đã tạo
+yargs.parse()
