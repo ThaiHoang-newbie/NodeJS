@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --inspect app/index.js",
-    "dev": "node app/index.js",
+    "start": "nodemon --inspect src/index.js",
+    "dev": "node src/index.js",
     "command_test": "node app/index.js test",
     "command_update": "node app/index.js update",
     "command_read-all": "node app/index.js read-all",
@@ -24,6 +24,9 @@
   },
   "dependencies": {
     "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "handlebars": "^4.7.7",
+    "morgan": "^1.10.0",
     "yargs": "^17.6.2"
   }
 }
