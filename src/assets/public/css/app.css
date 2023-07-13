@@ -1,6 +1,7 @@
 h1 {
-  font-size: 2em; }
+  font-size: 2em;
+  color: #db9a9a; }
 
 h2 {
-  color: red;
-  background-color: green; }
+  color: lightyellow;
+  background-color: #b7c0b7; }
