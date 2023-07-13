@@ -20,7 +20,6 @@ app.use(morgan('combined'));
 // Port
 const port = 3001;
 
-
 // Routes
 app.get('/', (req, res) => {
     return res.render('home');
