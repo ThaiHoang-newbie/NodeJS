@@ -4,8 +4,8 @@
   "description": "NodeJS + ExpressJS",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js",
-    "watch" : "node-sass --watch src/assets/scss/ --output src/assets/public/css/", 
+    "start": "nodemon --inspect src/index.js",
+    "watch" : "node-sass --watch src/resources/scss/ --output src/resources/public/css/", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
