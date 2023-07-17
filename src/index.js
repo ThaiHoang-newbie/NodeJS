@@ -9,10 +9,10 @@ const app = express();
 // Template engine
 app.engine('handlebars', engine());
 app.set('view engine', 'handlebars');
-app.set('views', path.join(__dirname, "assets/views"));
+app.set('views', path.join(__dirname, "assets/views")); 
 
 // Static
-app.use(express.static(path.join(__dirname, "assets/public")))
+app.use(express.static(path.join(__dirname, "assets/public")));
 
 // HTTP logger
 app.use(morgan('combined'));
