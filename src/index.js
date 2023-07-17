@@ -20,12 +20,15 @@ app.use(morgan('combined'));
 // Port
 const port = 3001;
 
-// Routes
+
+// Routes (
+// Syntax: app.method(PATH, HANDLER)
 app.get('/', (req, res) => {
     return res.render('home');
 })
 app.get('/news', (req, res) => {
     return res.render('news');
 })
+
 
 app.listen(port, () => console.log(`App listen on ${port}`));

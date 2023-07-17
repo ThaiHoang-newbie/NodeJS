@@ -13,6 +13,6 @@ npm start
 npm run watch
 ```
 
-## Contributing
+## Contributer
 
 [THAIHOANG](https://www.linkedin.com/in/thai-hoang-52a0aa258//)
